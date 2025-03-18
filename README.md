@@ -1,7 +1,7 @@
 # pdb_cleaner_aposteriori
 
 
-apo_env) s_felix@glycine:~/pdb_files$ make-frame-dataset -o /home/s_felix/pdb_files -n fixed_pdbs -v --frame-edge-length 12.0 --voxels-per-side 21 -ae CNOCBCA -cb true -comp true -vas false /home/s_felix/pdb_files/perfect_pdbs
+(apo_env) s_felix@glycine:~/pdb_files$ make-frame-dataset -o /home/s_felix/pdb_files -n fixed_pdbs -v --frame-edge-length 12.0 --voxels-per-side 21 -ae CNOCBCA -cb true -comp true -vas false /home/s_felix/pdb_files/perfect_pdbs
 /home/s_felix/.conda/envs/apo_env/lib/python3.9/site-packages/aposteriori/data_prep/cli.py:299: UserWarning: CNOCBCA encoding is deprecated and will be removed in future versions, atoms will be encoded as CNOCACB
   warnings.warn(
 Will attempt to process 8 structure file/s.
@@ -64,4 +64,4 @@ There were 3 errors while creating the dataset:
         /home/s_felix/pdb_files/perfect_pdbs/2mlbA00_pdb.pdb:
                 Malformed PDB, multiple "ATOM" types in a single chain.
 Created frame dataset at `/home/s_felix/pdb_files/fixed_pdbs.hdf5` containing 592 residue frames.
-(apo_env) s_felix@glycine:~/pdb_files$ 
+(apo_env) s_felix@glycine:~/pdb_files$
